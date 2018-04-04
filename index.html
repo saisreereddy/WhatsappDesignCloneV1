@@ -16,8 +16,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-  <script src="js/custom.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+ 
 </head>
 
 <body>
@@ -65,7 +67,7 @@
                   <img src="Images/pic1.jpg" class="">
                 </div>
               </div>
-              <div class="col-sm-9 col-xs-9 sideBar-main" id="read_chat_id">
+              <div class="col-sm-9 col-xs-9 sideBar-main" id="0" onclick="test(this.id);">
                 <div class="row">
                   <div class="col-sm-8 col-xs-8 sideBar-name">
                     <span class="name-meta">Saiteja
@@ -98,7 +100,7 @@
               <img src="Images/r.png" class="">
                 </div>
               </div>
-              <div class="col-sm-9 col-xs-9 sideBar-main" id="unread_chat_id">
+              <div class="col-sm-9 col-xs-9 sideBar-main unread_message_div"  id="1" onclick="test(this.id);">
                 <div class="row">
                   <div class="col-sm-8 col-xs-8 sideBar-name">
                     <span class="name-meta">Rohit
@@ -112,7 +114,7 @@
                 <div class="chat-wrapper">
                                             Please send your resume
 
-                                                   <span class="unread_message">1</span>
+                                                   <span class="unread_message" >1</span>
                                                 </div>
               </div>
             </div>
@@ -122,7 +124,7 @@
                         <img src="Images/a.png" class="">
                 </div>
               </div>
-              <div class="col-sm-9 col-xs-9 sideBar-main">
+              <div class="col-sm-9 col-xs-9 sideBar-main unread_message_div"  id="2" onclick="test(this.id);">
                 <div class="row">
                   <div class="col-sm-8 col-xs-8 sideBar-name">
                     <span class="name-meta">Anand
@@ -133,6 +135,11 @@
                   </span>
                   </div>
                 </div>
+                  <div class="chat-wrapper">
+                                          Had lunch?
+
+                                                   <span class="unread_message">1</span>
+                                                </div>
               </div>
             </div>
             <div class="row sideBar-body">
@@ -141,7 +148,7 @@
                <img src="Images/s.png" class="">
                 </div>
               </div>
-              <div class="col-sm-9 col-xs-9 sideBar-main">
+              <div class="col-sm-9 col-xs-9 sideBar-main unread_message_div"  id="3" onclick="test(this.id);">
                 <div class="row">
                   <div class="col-sm-8 col-xs-8 sideBar-name">
                     <span class="name-meta">Swarna
@@ -152,6 +159,11 @@
                   </span>
                   </div>
                 </div>
+                <div class="chat-wrapper">
+                                        How are you?
+
+                                                   <span class="unread_message">1</span>
+                                                </div>
               </div>
             </div>
             <div class="row sideBar-body">
@@ -160,7 +172,7 @@
                  <img src="Images/d.jpg" class="">
                 </div>
               </div>
-              <div class="col-sm-9 col-xs-9 sideBar-main">
+              <div class="col-sm-9 col-xs-9 sideBar-main"  id="4" onclick="test(this.id);">
                 <div class="row">
                   <div class="col-sm-8 col-xs-8 sideBar-name">
                     <span class="name-meta">Divya
@@ -171,6 +183,11 @@
                   </span>
                   </div>
                 </div>
+                <div class="chat-wrapper">
+                                         Got admit in NUS:)
+
+                                                
+                                                </div>
               </div>
             </div>
             <div class="row sideBar-body">
@@ -179,7 +196,7 @@
      <img src="Images/t.png" class="">
                 </div>
               </div>
-              <div class="col-sm-9 col-xs-9 sideBar-main">
+              <div class="col-sm-9 col-xs-9 sideBar-main"  id="5" onclick="test(this.id);">
                 <div class="row">
                   <div class="col-sm-8 col-xs-8 sideBar-name">
                     <span class="name-meta">Tejasvi
@@ -190,6 +207,10 @@
                   </span>
                   </div>
                 </div>
+                 <div class="chat-wrapper">
+                                        Off to US!!!
+                                                
+                                                </div>
               </div>
             </div>
             <div class="row sideBar-body">
@@ -198,7 +219,7 @@
                    <img src="Images/m.png" class="">
                 </div>
               </div>
-              <div class="col-sm-9 col-xs-9 sideBar-main">
+              <div class="col-sm-9 col-xs-9 sideBar-main"  id="6" onclick="test(this.id);">
                 <div class="row">
                   <div class="col-sm-8 col-xs-8 sideBar-name">
                     <span class="name-meta">Manasa
@@ -209,6 +230,11 @@
                   </span>
                   </div>
                 </div>
+                 <div class="chat-wrapper">
+                                        Please provide the info
+
+                                                
+                                                </div>
               </div>
             </div>
             <div class="row sideBar-body">
@@ -217,7 +243,7 @@
                       <img src="Images/s.png" class="">
                 </div>
               </div>
-              <div class="col-sm-9 col-xs-9 sideBar-main">
+              <div class="col-sm-9 col-xs-9 sideBar-main"  id="7" onclick="test(this.id);">
                 <div class="row">
                   <div class="col-sm-8 col-xs-8 sideBar-name">
                     <span class="name-meta">Siddharth
@@ -228,6 +254,11 @@
                   </span>
                   </div>
                 </div>
+                 <div class="chat-wrapper">
+                                        Hey there!
+
+                                                
+                                                </div>
               </div>
             </div>
             <div class="row sideBar-body">
@@ -236,7 +267,7 @@
                    <img src="Images/a.png" class="">
                 </div>
               </div>
-              <div class="col-sm-9 col-xs-9 sideBar-main">
+              <div class="col-sm-9 col-xs-9 sideBar-main"  id="8" onclick="test(this.id);">
                 <div class="row">
                   <div class="col-sm-8 col-xs-8 sideBar-name">
                     <span class="name-meta">abhi
@@ -247,6 +278,11 @@
                   </span>
                   </div>
                 </div>
+                 <div class="chat-wrapper">
+                                     Timings?
+
+                                                
+                                                </div>
               </div>
             </div>
             <div class="row sideBar-body">
@@ -255,7 +291,7 @@
                       <img src="Images/r.png" class="">
                 </div>
               </div>
-              <div class="col-sm-9 col-xs-9 sideBar-main">
+              <div class="col-sm-9 col-xs-9 sideBar-main"  id="9" onclick="test(this.id);">
                 <div class="row">
                   <div class="col-sm-8 col-xs-8 sideBar-name">
                     <span class="name-meta">Ram
@@ -266,6 +302,11 @@
                   </span>
                   </div>
                 </div>
+                 <div class="chat-wrapper">
+                                       When can i expect the call?
+
+                                                
+                                                </div>
               </div>
             </div>
           </div>
@@ -298,34 +339,47 @@
           <!-- ComposeBox End -->
 
           <!-- sideBar -->
-          <div class="row compose-sideBar">
+         <div class="row compose-sideBar">
             <div class="row sideBar-body">
               <div class="col-sm-3 col-xs-3 sideBar-avatar">
                 <div class="avatar-icon">
-                   <img src="Images/pic1.jpg" class="">
+                  <img src="Images/pic1.jpg" class="">
                 </div>
               </div>
-              <div class="col-sm-9 col-xs-9 sideBar-main">
+              <div class="col-sm-9 col-xs-9 sideBar-main" id="0" onclick="test(this.id);">
                 <div class="row">
                   <div class="col-sm-8 col-xs-8 sideBar-name">
                     <span class="name-meta">Saiteja
                   </span>
+
+
+
+
+
+
+
                   </div>
                   <div class="col-sm-4 col-xs-4 pull-right sideBar-time">
                     <span class="time-meta pull-right">18:18
                   </span>
                   </div>
                 </div>
+
+                <p class="chat-wrapper">
+                                                   Hey, have you finished up the edwisor project?
+                                                </p>
+
+
               </div>
             </div>
 
             <div class="row sideBar-body">
               <div class="col-sm-3 col-xs-3 sideBar-avatar">
                 <div class="avatar-icon">
-        <img src="Images/r.png" class="">
+              <img src="Images/r.png" class="">
                 </div>
               </div>
-              <div class="col-sm-9 col-xs-9 sideBar-main">
+              <div class="col-sm-9 col-xs-9 sideBar-main unread_message_div"  id="1" onclick="test(this.id);">
                 <div class="row">
                   <div class="col-sm-8 col-xs-8 sideBar-name">
                     <span class="name-meta">Rohit
@@ -335,16 +389,21 @@
                     <span class="time-meta pull-right">16:12
                   </span>
                   </div>
-                </div>
+                 </div>
+                <div class="chat-wrapper">
+                                            Please send your resume
+
+                                                   
+                                                </div>
               </div>
             </div>
             <div class="row sideBar-body">
               <div class="col-sm-3 col-xs-3 sideBar-avatar">
                 <div class="avatar-icon">
-              <img src="Images/a.png" class="">
+                        <img src="Images/a.png" class="">
                 </div>
               </div>
-              <div class="col-sm-9 col-xs-9 sideBar-main">
+              <div class="col-sm-9 col-xs-9 sideBar-main unread_message_div"  id="2" onclick="test(this.id);">
                 <div class="row">
                   <div class="col-sm-8 col-xs-8 sideBar-name">
                     <span class="name-meta">Anand
@@ -355,15 +414,20 @@
                   </span>
                   </div>
                 </div>
+                  <div class="chat-wrapper">
+                                          Had lunch?
+
+                                                  
+                                                </div>
               </div>
             </div>
             <div class="row sideBar-body">
               <div class="col-sm-3 col-xs-3 sideBar-avatar">
                 <div class="avatar-icon">
-      <img src="Images/s.png" class="">
+               <img src="Images/s.png" class="">
                 </div>
               </div>
-              <div class="col-sm-9 col-xs-9 sideBar-main">
+              <div class="col-sm-9 col-xs-9 sideBar-main unread_message_div"  id="3" onclick="test(this.id);">
                 <div class="row">
                   <div class="col-sm-8 col-xs-8 sideBar-name">
                     <span class="name-meta">Swarna
@@ -374,15 +438,20 @@
                   </span>
                   </div>
                 </div>
+                <div class="chat-wrapper">
+                                        How are you?
+
+                                                 
+                                                </div>
               </div>
             </div>
             <div class="row sideBar-body">
               <div class="col-sm-3 col-xs-3 sideBar-avatar">
                 <div class="avatar-icon">
-           <img src="Images/d.jpg" class="">
+                 <img src="Images/d.jpg" class="">
                 </div>
               </div>
-              <div class="col-sm-9 col-xs-9 sideBar-main">
+              <div class="col-sm-9 col-xs-9 sideBar-main"  id="4" onclick="test(this.id);">
                 <div class="row">
                   <div class="col-sm-8 col-xs-8 sideBar-name">
                     <span class="name-meta">Divya
@@ -393,15 +462,20 @@
                   </span>
                   </div>
                 </div>
+                <div class="chat-wrapper">
+                                         Got admit in NUS:)
+
+                                                
+                                                </div>
               </div>
             </div>
             <div class="row sideBar-body">
               <div class="col-sm-3 col-xs-3 sideBar-avatar">
                 <div class="avatar-icon">
-                  <img src="Images/t.png" class="">
+     <img src="Images/t.png" class="">
                 </div>
               </div>
-              <div class="col-sm-9 col-xs-9 sideBar-main">
+              <div class="col-sm-9 col-xs-9 sideBar-main"  id="5" onclick="test(this.id);">
                 <div class="row">
                   <div class="col-sm-8 col-xs-8 sideBar-name">
                     <span class="name-meta">Tejasvi
@@ -412,15 +486,20 @@
                   </span>
                   </div>
                 </div>
+                 <div class="chat-wrapper">
+                                        Off to US!!!
+
+                                                
+                                                </div>
               </div>
             </div>
             <div class="row sideBar-body">
               <div class="col-sm-3 col-xs-3 sideBar-avatar">
                 <div class="avatar-icon">
-               <img src="Images/m.png" class="">
+                   <img src="Images/m.png" class="">
                 </div>
               </div>
-              <div class="col-sm-9 col-xs-9 sideBar-main">
+              <div class="col-sm-9 col-xs-9 sideBar-main"  id="6" onclick="test(this.id);">
                 <div class="row">
                   <div class="col-sm-8 col-xs-8 sideBar-name">
                     <span class="name-meta">Manasa
@@ -431,18 +510,23 @@
                   </span>
                   </div>
                 </div>
+                 <div class="chat-wrapper">
+                                        Please provide the info
+
+                                                
+                                                </div>
               </div>
             </div>
             <div class="row sideBar-body">
               <div class="col-sm-3 col-xs-3 sideBar-avatar">
                 <div class="avatar-icon">
-                 <img src="Images/s.png" class="">
+                      <img src="Images/s.png" class="">
                 </div>
               </div>
-              <div class="col-sm-9 col-xs-9 sideBar-main">
+              <div class="col-sm-9 col-xs-9 sideBar-main"  id="7" onclick="test(this.id);">
                 <div class="row">
                   <div class="col-sm-8 col-xs-8 sideBar-name">
-                    <span class="name-meta">Siddarth
+                    <span class="name-meta">Siddharth
                   </span>
                   </div>
                   <div class="col-sm-4 col-xs-4 pull-right sideBar-time">
@@ -450,15 +534,20 @@
                   </span>
                   </div>
                 </div>
+                 <div class="chat-wrapper">
+                                        Hey there!
+
+                                                
+                                                </div>
               </div>
             </div>
             <div class="row sideBar-body">
               <div class="col-sm-3 col-xs-3 sideBar-avatar">
                 <div class="avatar-icon">
-             <img src="Images/a.png" class="">
+                   <img src="Images/a.png" class="">
                 </div>
               </div>
-              <div class="col-sm-9 col-xs-9 sideBar-main">
+              <div class="col-sm-9 col-xs-9 sideBar-main"  id="8" onclick="test(this.id);">
                 <div class="row">
                   <div class="col-sm-8 col-xs-8 sideBar-name">
                     <span class="name-meta">abhi
@@ -469,15 +558,20 @@
                   </span>
                   </div>
                 </div>
+                 <div class="chat-wrapper">
+                                     Timings?
+
+                                                
+                                                </div>
               </div>
             </div>
             <div class="row sideBar-body">
               <div class="col-sm-3 col-xs-3 sideBar-avatar">
                 <div class="avatar-icon">
-                  <img src="Images/r.png" class="">
+                      <img src="Images/r.png" class="">
                 </div>
               </div>
-              <div class="col-sm-9 col-xs-9 sideBar-main">
+              <div class="col-sm-9 col-xs-9 sideBar-main"  id="9" onclick="test(this.id);">
                 <div class="row">
                   <div class="col-sm-8 col-xs-8 sideBar-name">
                     <span class="name-meta">Ram
@@ -488,6 +582,11 @@
                   </span>
                   </div>
                 </div>
+                 <div class="chat-wrapper">
+                                       When can i expect the call?
+
+                                                
+                                                </div>
               </div>
             </div>
           </div>
@@ -641,17 +740,52 @@ Busy
 
       <!-- New Message Sidebar End -->
 
+
+ <div class="col-sm-8 conversation" id="no_chat_content" style="display: block;">
+<div clas="no_chat_class">
+  <div class="Whatsapp_image">
+    
+ <img src="Images/Whatsapp.jpg" class="img-circle">
+
+
+  </div>
+
+
+<h1 class="Whatsapp_text1">
+
+Keep Your Phone Connected
+</h1>
+<div class="Whatsapp_text2">
+WhatsApp connects to your phone to sync messages. To reduce data usage, connect your phone to Wi-Fi.
+</div>
+
+
+</div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
       <!-- Conversation Start -->
-      <div class="col-sm-8 conversation" id="read_chat_content">
+      <div class="col-sm-8 conversation" id="chat_content" style="display: none">
         <!-- Heading -->
         <div class="row heading">
           <div class="col-sm-2 col-md-1 col-xs-3 heading-avatar">
             <div class="heading-avatar-icon">
-              <img src="Images/pic1.jpg" class="">
+              <img src="" class="" id="imagecoll">
                  </div>
           </div>
           <div class="col-sm-7 col-xs-6 heading-name">
-            <a class="heading-name-meta">Saiteja
+            <a class="heading-name-meta" id="heading-name-meta-id">
             </a>
             <span class="heading-online">Online</span>
           </div>
@@ -682,7 +816,7 @@ Busy
             <div class="col-sm-12 message-main-receiver">
               <div class="receiver">
                 <div class="message-text">
-                 Hyy, Its Awesome..!
+               
                 </div>
                 <span class="message-time pull-right">
                   Sun
@@ -696,7 +830,7 @@ Busy
             <div class="col-sm-12 message-main-sender">
               <div class="sender">
                 <div class="message-text">
-                  Thanks n I know its awesome...!
+                 
                 </div>
                 <span class="message-time pull-right">
                   Sun
@@ -708,7 +842,7 @@ Busy
             <div class="col-sm-12 message-main-receiver">
               <div class="receiver">
                 <div class="message-text">
-                 Hyy, Its Awesome..!
+              
                 </div>
                 <span class="message-time pull-right">
                   Sun
@@ -722,13 +856,28 @@ Busy
             <div class="col-sm-12 message-main-sender">
               <div class="sender">
                 <div class="message-text">
-                  Thanks n I know its awesome...!
+             
                 </div>
                 <span class="message-time pull-right">
                   Sun
                 </span>
               </div>
             </div>
+          </div>
+
+
+           <div class="row message-body">
+            <div class="col-sm-12 message-main-receiver">
+              <div class="receiver">
+                <div class="message-text">
+              
+                </div>
+                <span class="message-time pull-right">
+                  Sun
+                </span>
+              </div>
+            </div>
+
           </div>
         </div>
 
@@ -756,96 +905,7 @@ Busy
 
 
 
- <!-- Conversation Start -->
-      <div class="col-sm-8 conversation" id="unread_chat_content" style="display: none">
-        <!-- Heading -->
-        <div class="row heading">
-          <div class="col-sm-2 col-md-1 col-xs-3 heading-avatar">
-            <div class="heading-avatar-icon">
-              <img src="Images/r.png">
-            </div>
-          </div>
-          <div class="col-sm-7 col-xs-6 heading-name">
-            <a class="heading-name-meta">Rohit
-            </a>
-            <span class="heading-online">Online</span>
-          </div>
-          <div class="col-sm-1 col-xs-1  heading-dot pull-right">
-            <i class="fa fa-ellipsis-v fa-2x  pull-right" aria-hidden="true"></i>
-          </div>
-            <div class="col-sm-1 col-xs-1  heading-search pull-right">
-            <span class="glyphicon glyphicon-search fa-2x  pull-right" aria-hidden="true"></span>
-          </div>
-           <div class="col-sm-1 col-xs-1  heading-attach pull-right">
-            <span class="glyphicon glyphicon-paperclip fa-2x  pull-right" aria-hidden="true"></span>
-          </div>
-        </div>
-        <!-- Heading End -->
-
-        <!-- Message Box -->
-        <div class="row message" id="conversation">
-
-          <div class="row message-previous">
-            <div class="col-sm-12 previous">
-              <a onclick="previous(this)" id="ankitjain28" name="20">
-              Show Previous Message!
-              </a>
-            </div>
-          </div>
-
-          <div class="row message-body">
-            <div class="col-sm-12 message-main-receiver">
-              <div class="receiver">
-                <div class="message-text">
-                 Hi,whats the status?
-                </div>
-                <span class="message-time pull-right">
-                  Sun
-                </span>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="row message-body">
-            <div class="col-sm-12 message-main-sender">
-              <div class="sender">
-                <div class="message-text">
-             Please send your resume
-                </div>
-                <span class="message-time pull-right">
-                  Sun
-                </span>
-              </div>
-            </div>
-          </div>
-          
-
-        </div>
-
-
-        <!-- Message Box End -->
-
-        <!-- Reply Box -->
-        <div class="row reply">
-          <div class="col-sm-1 col-xs-1 reply-emojis">
-            <i class="fa fa-smile-o fa-2x"></i>
-          </div>
-          <div class="col-sm-9 col-xs-9 reply-main">
-            <textarea class="form-control" rows="1" id="comment"></textarea>
-          </div>
-          <div class="col-sm-1 col-xs-1 reply-recording">
-            <i class="fa fa-microphone fa-2x" aria-hidden="true"></i>
-          </div>
-          <div class="col-sm-1 col-xs-1 reply-send">
-            <i class="fa fa-send fa-2x" aria-hidden="true"></i>
-          </div>
-        </div>
-        <!-- Reply Box End -->
-      </div>
-
-<!--conversation end-->
-
+ 
 
 
 

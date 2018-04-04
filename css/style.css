@@ -12,6 +12,37 @@ body {
   background: url("http://shurl.esy.es/y") no-repeat fixed center;
   background-size: cover;
 }
+
+.Whatsapp_image{
+
+
+text-align: center;
+    padding-top: 112px;
+    padding-bottom: 20px;
+
+
+}
+.Whatsapp_text1{
+
+ color: #4b5961;
+    line-height: 20px;
+    text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+
+}
+.Whatsapp_text2{
+
+    font-size: 14px;
+    color: #929fa6;
+    line-height: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+
+
+}
+
+
 .chat-wrapper{
       font-size: 12px;
     line-height: 16px;
