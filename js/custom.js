@@ -57,13 +57,13 @@ var arr = [
         { fname : "Saiteja", imagesource:"Images/pic1.jpg", receiver : "hello", sender: "hey ssup?",receiver1:"Got a job",sender1:"Yay",receiver2:"Hey,have you finished up the edwisor project"},
         { fname : "Rohit", imagesource:"Images/r.png", receiver : "hey", sender: "hey ssup?",receiver1:"Nice Resume",sender1:"Thanks",receiver2:"please send your resume"},
         { fname : "Anand", imagesource:"Images/a.png", receiver : "Hi", sender: "hey ssup?",receiver1:"All THE BEST",sender1:"Thanks a lot",receiver2:"Had lunch?"},
-        { fname : "Swarna", imagesource:"Images/s.png", receiver : "Hi", sender: "hey ssup?",receiver1:"All THE BEST",sender1:"Thanks a lot",receiver2:"How are you?"},
-        { fname : "Divya", imagesource:"Images/d.jpg", receiver : "Hi", sender: "hey ssup?",receiver1:"All THE BEST",sender1:"Thanks a lot",receiver2:"Got admit in NUS:)"},
-        { fname : "Tejasvi", imagesource:"Images/t.png", receiver : "Hi", sender: "hey ssup?",receiver1:"All THE BEST",sender1:"Thanks a lot",receiver2:"Off to US!!!"},
-        { fname : "Manasa", imagesource:"Images/m.png", receiver : "Hi", sender: "hey ssup?",receiver1:"All THE BEST",sender1:"Thanks a lot",receiver2:"Please provide the info"},
-        { fname : "Siddharth", imagesource:"Images/s.png", receiver : "Hi", sender: "hey ssup?",receiver1:"All THE BEST",sender1:"Thanks a lot",receiver2:"Hey there!"},
-        { fname : "Abhi", imagesource:"Images/a.png", receiver : "Hi", sender: "hey ssup?",receiver1:"All THE BEST",sender1:"Thanks a lot",receiver2:"Timings?"},
-        { fname : "Ram", imagesource:"Images/r.png", receiver : "Hi", sender: "hey ssup?",receiver1:"All THE BEST",sender1:"Thanks a lot",receiver2:"When can i expect the call?"}
+        { fname : "Swarna", imagesource:"Images/s.png", receiver : "Hi whatsup?", sender: "ntng as such?",receiver1:"Best of luck",sender1:"Thanks a lot",receiver2:"How are you?"},
+        { fname : "Divya", imagesource:"Images/d.jpg", receiver : "Had dinner", sender: "ya",receiver1:"you",sender1:"ya had",receiver2:"Got admit in NUS:)"},
+        { fname : "Tejasvi", imagesource:"Images/t.png", receiver : "what doing", sender: "games",receiver1:"good",sender1:"hmm",receiver2:"Off to US!!!"},
+        { fname : "Manasa", imagesource:"Images/m.png", receiver : "Hello", sender: "hi",receiver1:"All THE BEST",sender1:"Thanks a lot",receiver2:"Please provide the info"},
+        { fname : "Siddharth", imagesource:"Images/s.png", receiver : "I had reservation", sender: "at what time",receiver1:"11:30",sender1:"cool",receiver2:"Hey there!"},
+        { fname : "Abhi", imagesource:"Images/a.png", receiver : "Going home", sender: "cool",receiver1:"All THE BEST",sender1:"Thanks",receiver2:"Timings?"},
+        { fname : "Ram", imagesource:"Images/r.png", receiver : "Hi", sender: "hey ssup?",receiver1:"You got scholarship",sender1:"Thanks a lot",receiver2:"When can i expect the call?"}
       ]
     
     for(i=0;i<=arr.length;i++)
