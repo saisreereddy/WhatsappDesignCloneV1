@@ -340,6 +340,7 @@ padding-bottom: 20px;
   white-space: nowrap;
   color: #000;
   display: block;
+  line-height: 31px;
 }
 .heading-online {
   display: none;
@@ -749,7 +750,7 @@ padding-bottom: 20px;
     background-color: #009688;
   }
   .fa-2x {
-    font-size: 2.3em !important;
+    font-size: 1.5em !important;
   }
   .heading-avatar {
     padding: 0 !important;
