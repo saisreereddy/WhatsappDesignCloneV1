@@ -61,7 +61,7 @@
           <!-- Search Box End -->
           <!-- sideBar -->
           <div class="row sideBar">
-            <div class="row sideBar-body">
+            <div class="row sideBar-body" id="small_screen_id" onclick="small_screen_function()">
               <div class="col-sm-3 col-xs-3 sideBar-avatar">
                 <div class="avatar-icon">
                   <img src="Images/pic1.jpg" class="">
@@ -779,12 +779,13 @@ WhatsApp connects to your phone to sync messages. To reduce data usage, connect 
       <div class="col-sm-8 conversation" id="chat_content" style="display: none">
         <!-- Heading -->
         <div class="row heading">
-          <div class="col-sm-2 col-md-1 col-xs-3 heading-avatar">
+          <div style="width: 55px;padding-left: 10px;float: left;padding-top: 10px" class="glyphicon glyphicon-arrow-left" id="back_arrow" onclick="small_screen_content()"></div>
+          <div class="col-sm-1 col-md-1 col-xs-2 heading-avatar">
             <div class="heading-avatar-icon">
               <img src="" class="" id="imagecoll">
                  </div>
           </div>
-          <div class="col-sm-7 col-xs-6 heading-name">
+          <div class="col-sm-3 col-xs-2 heading-name">
             <a class="heading-name-meta" id="heading-name-meta-id">
             </a>
             <span class="heading-online">Online</span>
@@ -807,7 +808,7 @@ WhatsApp connects to your phone to sync messages. To reduce data usage, connect 
           <div class="row message-previous">
             <div class="col-sm-12 previous">
               <a onclick="previous(this)" id="ankitjain28" name="20">
-              Show Previous Message!
+              Load Old Messages!
               </a>
             </div>
           </div>

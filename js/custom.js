@@ -1,5 +1,11 @@
     $(document).ready(function(){
 
+
+
+
+
+
+
       $(".heading-compose").click(function() {
       $(".side-two").css({
         "left": "0"
@@ -8,6 +14,7 @@
 
     $(".newMessage-back").click(function() {
       $(".side-two").css({
+
         "left": "-100%"
       });
     });
@@ -95,3 +102,45 @@ document.getElementsByClassName('message-text')[4].innerHTML = arr[i].receiver2;
 
 
     }
+    
+
+
+ 
+
+
+function small_screen_function()
+{
+
+if ($(window).width() >=400 && $(window).width() <= 558 ) { 
+
+
+
+  document.getElementById("chat_content").style.display = "block";
+     document.getElementById("not_profile_content").style.display = "none";
+
+
+
+
+}
+
+
+
+}
+function small_screen_content()
+{
+
+if ($(window).width() >=400 && $(window).width() <= 558 ) { 
+
+
+
+  document.getElementById("chat_content").style.display = "none";
+     document.getElementById("not_profile_content").style.display = "block";
+
+
+
+
+}
+
+
+
+}
