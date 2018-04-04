@@ -111,7 +111,7 @@ document.getElementsByClassName('message-text')[4].innerHTML = arr[i].receiver2;
 function small_screen_function()
 {
 
-if ($(window).width() >=400 && $(window).width() <= 558 ) { 
+if ($(window).width() >=200 && $(window).width() <= 600 ) { 
 
 
 
@@ -129,7 +129,7 @@ if ($(window).width() >=400 && $(window).width() <= 558 ) {
 function small_screen_content()
 {
 
-if ($(window).width() >=400 && $(window).width() <= 558 ) { 
+if ($(window).width() >=200 && $(window).width() <= 600 ) { 
 
 
 
