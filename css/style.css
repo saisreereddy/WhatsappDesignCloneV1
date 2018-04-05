@@ -746,7 +746,7 @@ padding-bottom: 20px;
   .heading-refresh span {
   text-align: right;
   padding: 5px;
-  color: #93918f;
+  color: white;
   cursor: pointer;
   padding-top: 10px;
 }
@@ -754,7 +754,7 @@ padding-bottom: 20px;
 .heading-attach span {
     text-align: right;
     padding: 5px;
-    color: #93918f;
+    color: white;
     cursor: pointer;
     padding-top: 10px;
 }
@@ -762,7 +762,7 @@ padding-bottom: 20px;
 .heading-search span {
     text-align: right;
     padding: 5px;
-    color: #93918f;
+    color: white;
     cursor: pointer;
     padding-top: 10px;
 }
@@ -771,7 +771,18 @@ padding-bottom: 20px;
     height: 40px;
     width: 40px;
 }
+.message-text{
 
+    margin: 0 !important;
+    padding: 5px !important;
+    word-wrap: break-word;
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 0 !important;
+
+
+
+}
 
 
 
